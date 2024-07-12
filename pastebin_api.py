@@ -16,7 +16,7 @@ def create_paste(title, body_text, expiration='1M', public=False):
     print("Creating a new PasteBin paste...")
 
     PASTEBIN_API_KEY = 'U92yUvAhCHLRHzBnnPqAPGPjN2_4l_3P'
-    PASTEBIN_API_URL = 'https://pastebin.com/doc_api'
+    PASTEBIN_API_URL = 'https://pastebin.com/api/api_post.php'
 
     payload = {
         'api_dev_key': PASTEBIN_API_KEY,
